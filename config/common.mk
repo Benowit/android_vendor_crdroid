@@ -157,6 +157,13 @@ endif
 PRODUCT_PACKAGES += \
     OmniSwitch
 
+# DU Utils Library
+PRODUCT_PACKAGES += \
+    org.dirtyunicorns.utils
+
+PRODUCT_BOOT_JARS += \
+    org.dirtyunicorns.utils
+
 # Openssh
 PRODUCT_PACKAGES += \
     scp \
